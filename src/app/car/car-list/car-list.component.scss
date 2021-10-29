@@ -1,0 +1,35 @@
+// Personalized material style
+.mat-column-brand {
+  width: 20%;
+}
+
+.mat-column-model {
+  width: 20%;
+}
+
+.mat-column-color {
+  width: 20%;
+}
+
+.mat-column-price {
+  width: 20%;
+}
+
+mat-form-field {
+  width: 33%;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0;
+}
+
+.back-button {
+  color: white;
+}
+
+.back-to-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 30px;
+  padding-bottom: 50px;
+}

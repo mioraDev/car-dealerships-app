@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// Common styles for angular components
+.spinner-margin {
+  margin: 0 10px;
+}
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 98%;
+  margin: auto;
+}
+
+th {
+  font-size: 18px;
+  color: #3c76d2;
+}
+
+.title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.new-button {
+  background-color: black;
+}
+
+.mat-cell,
+.mat-header-cell {
+  padding-left: 10px;
+}
+
+tr.mat-row {
+  height: 58px;
+}
+
+.error {
+  color: red;
+}
+
+td.mat-column-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.text-search {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-btn {
+  height: 50px;
+  margin: 4px 0 0 10px !important;
+}

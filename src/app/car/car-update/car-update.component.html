@@ -1,0 +1,23 @@
+<h1>Update a new car</h1>
+<form>
+    <form  [formGroup]="carForm" (submit)="updateCar()" class="full-width">
+    <mat-form-field appearance="outline">
+        <mat-label for="brand">Brand</mat-label>
+        <input  matInput type="text"  formControlName="brand" placeholder="brand">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+         <mat-label for="model">Model</mat-label>
+        <input matInput type="text"  formControlName="model" placeholder="model">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+        <mat-label for="color">Color</mat-label>
+        <input matInput type="text"  formControlName="color" placeholder="color">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+        <mat-label for="price">Price</mat-label>
+        <input matInput type="number"  formControlName="price" placeholder="price">
+    </mat-form-field>
+    <button mat-raised-button [disabled]="carForm.invalid" color="primary" type="submit">Add</button>
+    <button mat-stroked-button mat-dialog-close class="cancel-btn">Cancel</button>
+    </form >
+</form>

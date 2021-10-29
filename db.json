@@ -1,0 +1,225 @@
+{
+  "dealerships": [
+    {
+      "name": "GM",
+      "location": "41.40338, 2.17403",
+      "totalBudget": 1200000,
+      "remainingBudget": 12000,
+      "owner": {
+        "firstname": "John",
+        "lastname": "Berry"
+      },
+      "cars": [
+        {
+          "brand": "Acura",
+          "model": "Renault",
+          "color": "Bleu",
+          "price": 12000,
+          "id": 139401
+        },
+        {
+          "brand": "BMW",
+          "model": "Volswagene",
+          "color": "red",
+          "price": 20000,
+          "id": 731488
+        },
+        {
+          "id": 753343,
+          "brand": "Honda",
+          "model": "New model",
+          "color": "Green",
+          "price": 500
+        },
+        {
+          "brand": "Audi",
+          "model": "Audi Model",
+          "color": "Grey",
+          "price": 2200,
+          "id": 237831
+        },
+        {
+          "brand": "Acadian",
+          "model": "Another model",
+          "color": "Red",
+          "price": 33000,
+          "id": 302911
+        },
+        {
+          "brand": "Adler",
+          "model": "Adler Model",
+          "color": "Green",
+          "price": 5400,
+          "id": 849205
+        },
+        {
+          "brand": "Dutton",
+          "model": "My model",
+          "color": "Red",
+          "price": 4000,
+          "id": 687799
+        },
+        {
+          "brand": "Nash",
+          "model": "Model Nash",
+          "color": "Brown",
+          "price": 400,
+          "id": 402971
+        },
+        {
+          "brand": "Mitchell",
+          "model": "Mitchell Model",
+          "color": "Yellow",
+          "price": 33000,
+          "id": 87314
+        },
+        {
+          "brand": "Lorraine",
+          "model": "The model",
+          "color": "Red",
+          "price": 40000,
+          "id": 451400
+        },
+        {
+          "brand": "LuAZ",
+          "model": "Mercedes",
+          "color": "White",
+          "price": 700,
+          "id": 79677
+        },
+        {
+          "brand": "Italdesign",
+          "model": "Another",
+          "color": "Black",
+          "price": 4430,
+          "id": 469149
+        },
+        {
+          "brand": "Russell Motor",
+          "model": "Mercedes",
+          "color": "White",
+          "price": 300000,
+          "id": 854675
+        },
+        {
+          "id": 150385,
+          "brand": "Qoros Auto Co",
+          "model": "Peugeaot",
+          "color": "Red",
+          "price": 3000
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Tesla",
+      "location": "54.40000, 2.174333",
+      "totalBudget": 54000,
+      "remainingBudget": 54000,
+      "owner": {
+        "firstname": "Eric",
+        "lastname": "Prospect"
+      },
+      "cars": [
+        {
+          "brand": "Giga Texas",
+          "model": "Tesla 1",
+          "color": "Black",
+          "price": 10000,
+          "id": 431237
+        },
+        {
+          "brand": "Giga New York\t",
+          "model": "New model",
+          "color": "White",
+          "price": 40000,
+          "id": 919370
+        },
+        {
+          "brand": "Shanghai\t",
+          "model": "Another model",
+          "color": "Black",
+          "price": 40400,
+          "id": 559591
+        },
+        {
+          "id": 169007,
+          "brand": "Tesla brand",
+          "model": "Tesla 5",
+          "color": "White",
+          "price": 800
+        },
+        {
+          "id": 593510,
+          "brand": "Fremont",
+          "model": "Model tesla",
+          "color": "Yellow",
+          "price": 4000
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Ford",
+      "location": "10.50338, 20.00003",
+      "totalBudget": 30000,
+      "remainingBudget": 30000,
+      "owner": {
+        "firstname": "Tim",
+        "lastname": "Brown"
+      },
+      "cars": [
+        {
+          "brand": "Tchaika",
+          "model": "Ford 1",
+          "color": "Black",
+          "price": 2000,
+          "id": 240371
+        },
+        {
+          "brand": "Rootes Australia",
+          "model": "Model",
+          "color": "Green",
+          "price": 3000,
+          "id": 168153
+        },
+        {
+          "brand": "Navistar",
+          "model": "Another ford model",
+          "color": "Brown",
+          "price": 4000,
+          "id": 952788
+        },
+        {
+          "brand": "Victoria",
+          "model": "Victoria Model",
+          "color": "Red",
+          "price": 33300,
+          "id": 617788
+        },
+        {
+          "brand": "ZiL",
+          "model": "Model ZiL 22",
+          "color": "White",
+          "price": 4000,
+          "id": 40045
+        },
+        {
+          "brand": "Pipe",
+          "model": "Audi",
+          "color": "Black",
+          "price": 60600,
+          "id": 641421
+        },
+        {
+          "brand": "Your car",
+          "model": "New model",
+          "color": "Grey",
+          "price": 4000,
+          "id": 801175
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

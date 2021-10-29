@@ -1,0 +1,28 @@
+<h1>Add a new dealership</h1>
+<form>
+    <form  [formGroup]="dealershipForm" (submit)="createDealership()" class="full-width">
+    <mat-form-field appearance="outline">
+        <mat-label for="Name">Name</mat-label>
+        <input  matInput type="text"  formControlName="name" placeholder="name">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+         <mat-label for="location">Location</mat-label>
+        <input matInput type="text"  formControlName="location" placeholder="41.40338, 2.17403">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+        <mat-label for="totalBudget">Total Budget</mat-label>
+        <input matInput type="number"  formControlName="totalBudget" placeholder="Total Budget">
+    </mat-form-field>
+    <h3>Owner:</h3>
+     <mat-form-field appearance="outline">
+        <mat-label for="firstname">Firstname</mat-label>
+        <input matInput type="text"  formControlName="firstname" placeholder="firstname">
+    </mat-form-field>
+     <mat-form-field appearance="outline">
+        <mat-label for="firstname"> Lastname</mat-label>
+        <input matInput type="text"  formControlName="lastname" placeholder="lastname">
+       </mat-form-field>
+    <button mat-raised-button [disabled]="dealershipForm.invalid" color="primary" type="submit">Add</button>
+    <button mat-stroked-button mat-dialog-close class="cancel-btn">Cancel</button>
+    </form >
+</form>
